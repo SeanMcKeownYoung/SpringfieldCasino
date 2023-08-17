@@ -250,9 +250,9 @@ header h1 {
   margin-left: -22px;
   margin-top: -22px;
   border-radius: 50%;
-  background: #ec2128 url("../img/cd-arrows.svg") no-repeat center center;
+  background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.92 30.92"><circle cx="15.46" cy="15.46" r="15.46" style="fill:%23ed1c24;"/><polyline points="13.18 22.2 6.44 15.46 13.18 8.72" style="fill:%23fff;"/><polyline points="17.73 8.72 24.48 15.46 17.73 22.2" style="fill:%23fff;"/></svg>');
   cursor: move;
-  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1), 0 0 50px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.3);
   opacity: 0;
   -webkit-transform: translate3d(0, 0, 0) scale(0);
   -moz-transform: translate3d(0, 0, 0) scale(0);
