@@ -14,7 +14,7 @@ body {
   font-family: Benton Sans, Arial, sans-serif;
   line-height: 1.4;
   color: #222;
-  background-color:#fff
+  background-color:#fff;
   color: #445b7c;
   background-color: #2a2a2a;
 }
@@ -28,63 +28,7 @@ img {
   max-width: 100%;
 }
 
--------------------------------- */
 
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    src: local("Open Sans"), local("OpenSans"), url(k88pr3goawt7btt32z01mxjtnkitppoi_ivcxxdnrsc.woff2?d=1078) format("woff2");
-    unicode-range:U + 460-52f, U + 20b4, U + 2de0-2dff, U + a640-a69f
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    src: local("Open Sans"), local("OpenSans"), url(rjgo7rytmqivp7vzi-q5urjtnkitppoi_ivcxxdnrsc.woff2?d=1078) format("woff2");
-    unicode-range:U + 400-45f, U + 490-491, U + 4b0-4b1, U + 2116
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    src: local("Open Sans"), local("OpenSans"), url(lwcjsqkb6emdfhrevqa1krjtnkitppoi_ivcxxdnrsc.woff2?d=1078) format("woff2");
-    unicode-range:U + 1f??
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    src: local("Open Sans"), local("OpenSans"), url(xozscpt2726on7jbcb_pahjtnkitppoi_ivcxxdnrsc.woff2?d=1078) format("woff2");
-    unicode-range:U + 370-3ff
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    src: local("Open Sans"), local("OpenSans"), url(59zrklao5bwgqf5a9baeerjtnkitppoi_ivcxxdnrsc.woff2?d=1078) format("woff2");
-    unicode-range:U + 102-103, U + 1ea0-1ef9, U + 20ab
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    src: local("Open Sans"), local("OpenSans"), url(u-wuoqret9fueobqw7jkrrjtnkitppoi_ivcxxdnrsc.woff2?d=1078) format("woff2");
-    unicode-range:U + 100-24f, U + 1-1eff, U + 20a0-20ab, U + 20ad-20cf, U + 2c60-2c7f, U + a720-a7ff
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    src: local("Open Sans"), local("OpenSans"), url(cjzkeoubrn4kerxqtauh3vtxra8tvwticgirnjhmvjw.woff2?d=1078) format("woff2");
-    unicode-range:U + 0-ff, U + 131, U + 152-153, U + 2c6, U + 2da, U + 2dc, U + 2000-206f, U + 2074, U + 20ac, U + 2212, U + 2215
-}
 @font-face {
   font-family: Benton Sans;
   font-display: swap;
@@ -148,9 +92,7 @@ img {
   font-weight:700
 }
 
-Main components 
 
--------------------------------- */
 
 .article__details-headline-text--h1 {
   display: block;
@@ -158,40 +100,34 @@ Main components
   font-size: 2.8rem;
   line-height: 3.6rem;
   letter-spacing: .3px;
-  color:#2a2a2a
+  color:#2a2a2a;
 }
 
 
 header {
   position: absolute;
+  background-color: #4e4e4e;
+  z-index: 2;
+  width: 50%;
   height: auto;
-  text-align: left;
-
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -2%);
 }
 header h1 {
   margin: 5%;
   color: #ffffff;
   font-weight: 700;
+  text-align: center;
+  font-size: 2vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: block;
   font-family: Farnham Semi Bold;
-  font-size: 2.8rem;
-  line-height: 3.6rem;
   letter-spacing: .3px;
   color: #ffffff;
 }
-@media only screen and (min-width: 768px) {
-  header {
-    height: auto;
-    line-height: 240px;
-  }
-  header h1 {
-    font-size: 2.8rem;
-    line-height: 3.6rem;
-    margin: 3%;
-  }
-}
+
 
 .cd-image-container {
   position: absolute;
